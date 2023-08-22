@@ -305,18 +305,10 @@ public class BlocoNotas extends javax.swing.JFrame {
     private void menuMinusculaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuMinusculaActionPerformed
         txtTexto.setText(txtTexto.getText().toLowerCase());
     }//GEN-LAST:event_menuMinusculaActionPerformed
-
-    private void btnFontesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFontesActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnFontesActionPerformed
-
+    
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         txtTamanhoFonte.setText("12");
     }//GEN-LAST:event_formWindowOpened
-
-    private void txtTextoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtTextoKeyPressed
-
-    }//GEN-LAST:event_txtTextoKeyPressed
 
     private void btnFontesItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_btnFontesItemStateChanged
         //identificador de mudança de fonte
@@ -331,26 +323,14 @@ public class BlocoNotas extends javax.swing.JFrame {
         }
         alteracaoTexto();
     }//GEN-LAST:event_btnFontesItemStateChanged
-
-    private void btnFontesPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_btnFontesPropertyChange
-
-    }//GEN-LAST:event_btnFontesPropertyChange
-
+    
     private void txtTamanhoFonteFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtTamanhoFonteFocusLost
         alteracaoTexto();
     }//GEN-LAST:event_txtTamanhoFonteFocusLost
 
-    private void txtTamanhoFonteKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtTamanhoFonteKeyPressed
-
-    }//GEN-LAST:event_txtTamanhoFonteKeyPressed
-
     private void btnTipoFontesItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_btnTipoFontesItemStateChanged
         alteracaoTexto();
     }//GEN-LAST:event_btnTipoFontesItemStateChanged
-
-    private void txtTamanhoFonteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTamanhoFonteActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtTamanhoFonteActionPerformed
 
     private void btnSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvarActionPerformed
         salvar();
@@ -363,10 +343,6 @@ public class BlocoNotas extends javax.swing.JFrame {
     private void menuSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSalvarActionPerformed
         salvar();
     }//GEN-LAST:event_menuSalvarActionPerformed
-
-    private void txtTextoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtTextoKeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtTextoKeyTyped
 
     private void txtTextoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtTextoKeyReleased
         //recebe a quantidade de caracteres da caixa de texto e exibe no lugar da variavel contador
