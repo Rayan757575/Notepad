@@ -25,7 +25,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author 17500059647
+ * @author Rayan
  */
 public class BlocoNotas extends javax.swing.JFrame {
 
